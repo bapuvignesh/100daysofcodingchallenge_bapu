@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+ 
+</head>
+<body>
+  <div class="bg-container">
+    <div class="header-container">
+      <header> 
+          <h1 class="Main-heading">Welcome to ABC Restaurant</h1>
+          <p class="paragraph">Our restaurant, <span style="font-weight: bold;">ABC</span> offers a unique blend of traditional and contemporary culinary delights, set in a cozy, inviting atmosphere perfect for any occasion.</p>
+      </header>
+    </div> 
+    <h2>Menu</h2>
+    <div class="Menu-card-conntainer">
+        <h3 >Appetizers</h3>
+        <a class="view-Appetizers-heading" href="https://www.shudhrestaurant.com/menu.html">view Appetizers</a>
+        <ul>
+          <img src="https://tse4.mm.bing.net/th?id=OIP.hvQpFwbd1cU-CmLuws4gCAHaLH&pid=Api&P=0&h=180" width="120px" height="120px">
+          <li>Garlic Bread</li>
+          <img src="https://tse3.mm.bing.net/th?id=OIP.N-cfrcl23kHGQgwt8fg_vwHaGX&pid=Api&P=0&h=180" width="120px" height="120px">
+          <li>Bruschetta</li>
+          <img src="https://www.eatingwell.com/thmb/jC0C97YHPDjRDYlh2f6iruXfXa0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7032138-3b643290901d4283963338d37a5e557e.jpg" width="120px" height="120px">
+          <li>Stuffed Mushrooms</li>
+        </ul>
+        
+        <h3>Main Courses</h3>
+        <ol>
+          <li>Biryani</li>
+          <li>Butter Chicken</li>
+          <li>Korma</li>
+        </ol>
+        
+        <h3>Deserts</h3>
+        <ol>
+          <li>Cake</li>
+          <li>Cookie</li>
+          <li>Candy</li>
+        </ol>
+      <footer>
+        <h2>Submit your Reviews here</h2>
+        
+        <form action="submit-review.php" method="post">
+          <input type="text" name="customer_name" placeholder="Your Name">
+          <textarea name="review" placeholder="Write your review here..."></textarea>
+          <input type="submit" value="Submit Review">
+        </form>
+        <div class="contact-us-section">
+          <h class="contact-us-section-heading">contact us</h>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
